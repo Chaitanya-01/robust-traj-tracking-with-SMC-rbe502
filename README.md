@@ -1,1 +1,1 @@
-# robust-traj-tracking-with-SMC-rbe502
+# Robust Trajectory Tracking for Quadrotor with Sliding Mode Control
