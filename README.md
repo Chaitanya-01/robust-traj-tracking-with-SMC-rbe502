@@ -49,6 +49,20 @@ Design a sliding mode controller for altitude and attitude control of Crazyflie 
   ```
   roslaunch rotors_gazebo crazyflie2_without_controller.launch
   ```
+- Clone this repository into `src` folder as a package and build the workspace.
+- To run the code first open a terminal and spawn the Crazyflie 2.0 quadrotor on the Gazebo simulator
+  ```
+  roslaunch rotors_gazebo crazyflie2_without_controller.launch
+  ```
+- Open a new terminal to run the control script. Launch the ROS node for the quadrotor to follow the trajectory:
+  ```
+  rosrun project quadrotor_control.py
+  ```
+- Once the simulation is done, the actual trajectory is saved to `log.pkl' file. To visualize go to `scripts` folder and run:
+  ```
+  python visualize.py
+  ```
+  
 ## Report
 For detailed description of the math see the report [here](Report.pdf).
 ## Plots and Animations
