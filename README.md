@@ -13,7 +13,9 @@ Design a sliding mode controller for altitude and attitude control of Crazyflie 
   rosdep update
   sudo apt-get install ros-noetic-ros libgoogle-glog-dev
   ```
+  
 - Create a ROS workspace and download the packages for the drone.
+  
   ```
   mkdir -p ~/myworkspace/src
   cd ~/myworkspace/src
@@ -24,7 +26,7 @@ Design a sliding mode controller for altitude and attitude control of Crazyflie 
   git clone -b dev/ros-noetic https://github.com/gsilano/CrazyS.git
   git clone -b med18_gazebo9 https://github.com/gsilano/mav_comm.git
   ```
-	IMU_filename = 'imuRaw1' and vicon_filename = 'viconRot1'
+
 - For the other data change the variables accordingly and run the file.
 - To generate 3D animations uncomment the specified lines in 'main' function. 
 - In Code folder:
