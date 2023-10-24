@@ -26,12 +26,28 @@ Design a sliding mode controller for altitude and attitude control of Crazyflie 
   git clone -b dev/ros-noetic https://github.com/gsilano/CrazyS.git
   git clone -b med18_gazebo9 https://github.com/gsilano/mav_comm.git
   ```
-
-- For the other data change the variables accordingly and run the file.
-- To generate 3D animations uncomment the specified lines in 'main' function. 
-- In Code folder:
+- Configure and Build the workspace
   ```
-  python Wrapper.py
+  cd ~/myworkspace
+  rosdep install --from-paths src -i
+  rosdep update
+  catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release -DCATKIN_ENABLE_TESTING=
+  False
+  catkin build
+  ```
+- Source the workspace
+  ```
+  echo "source ~/myworkspace/devel/setup.bash" >> ~/.bashrc
+  source ~/.bashrc
+  ``` 
+- With all dependencies ready, build the ROS package by the following commands:
+  ```
+  cd ~/myworkspace
+  catkin build
+  ```
+- Check if everything works by spawning the drone in Gazebo
+  ```
+  roslaunch rotors_gazebo crazyflie2_without_controller.launch
   ```
 ## Report
 For detailed description of the math see the report [here](Report.pdf).
