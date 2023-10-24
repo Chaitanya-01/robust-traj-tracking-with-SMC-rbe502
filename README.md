@@ -16,13 +16,13 @@ Design a sliding mode controller for altitude and attitude control of Crazyflie 
 - Create a ROS workspace and download the packages for the drone.
   ```
   mkdir -p ~/myworkspace/src
-cd ~/myworkspace/src
-catkin_init_workspace # initialize your catkin workspace
-cd ~/myworkspace
-catkin init
-cd ~/myworkspace/src
-git clone -b dev/ros-noetic https://github.com/gsilano/CrazyS.git
-git clone -b med18_gazebo9 https://github.com/gsilano/mav_comm.git
+  cd ~/myworkspace/src
+  catkin_init_workspace # initialize your catkin workspace
+  cd ~/myworkspace
+  catkin init
+  cd ~/myworkspace/src
+  git clone -b dev/ros-noetic https://github.com/gsilano/CrazyS.git
+  git clone -b med18_gazebo9 https://github.com/gsilano/mav_comm.git
   ```
 	IMU_filename = 'imuRaw1' and vicon_filename = 'viconRot1'
 - For the other data change the variables accordingly and run the file.
