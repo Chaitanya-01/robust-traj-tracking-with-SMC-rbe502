@@ -1,7 +1,7 @@
 # Robust Trajectory Tracking for Quadrotor with Sliding Mode Control
 Design a sliding mode controller for altitude and attitude control of Crazyflie 2.0 drone to track desired trajectories between desired waypoints. The controller should be robust to external disturbances. (Implemented as part of project for RBE502 - Robot Control course)
 
-## Steps to run the code
+## Steps to setup the workspace and run the code
 - Install Numpy, Scipy, and Matplotlib libraries before running the code.
 - To run on the first training data in the `Wrapper.py` file in the 'main' function set the variables as:
 	IMU_filename = 'imuRaw1' and vicon_filename = 'viconRot1'
@@ -30,6 +30,7 @@ Remaining plots are present in the report and links to rest of the animations ar
 
 ## References
 1. [https://github.com/gsilano/CrazyS](https://github.com/gsilano/CrazyS)
+2. [https://www.bitcraze.io/products/old-products/crazyflie-2-0/](https://www.bitcraze.io/products/old-products/crazyflie-2-0/)
 
 ## Collaborators
 Chaitanya Sriram Gaddipati - cgaddipati@wpi.edu
