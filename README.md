@@ -58,7 +58,7 @@ Design a sliding mode controller for altitude and attitude control of Crazyflie 
   ```
   rosrun project quadrotor_control.py
   ```
-- Once the simulation is done, the actual trajectory is saved to `log.pkl' file. To visualize go to `scripts` folder and run:
+- Once the simulation is done, the actual trajectory is saved to `log.pkl` file. To visualize go to `scripts` folder and run:
   ```
   python visualize.py
   ```
