@@ -50,7 +50,7 @@ Design a sliding mode controller for altitude and attitude control of Crazyflie 
   roslaunch rotors_gazebo crazyflie2_without_controller.launch
   ```
 - Clone this repository into `src` folder as a package and build the workspace.
-- To run the code first open a terminal and spawn the Crazyflie 2.0 quadrotor on the Gazebo simulator
+- To run the code first open a terminal and spawn the Crazyflie 2.0 quadrotor on the Gazebo simulator (play the simulation)
   ```
   roslaunch rotors_gazebo crazyflie2_without_controller.launch
   ```
