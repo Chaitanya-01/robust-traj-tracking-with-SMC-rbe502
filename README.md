@@ -71,6 +71,9 @@ The path followed by the drone after simulation:
 <img src="project/scripts/trajectory.png" width="750" height="450"/>
 </p>
 
+<p float="middle">
+<img src="project/scripts/gif.gif" width="750" height="350"/>
+</p>
 
 ## References
 1. [https://github.com/gsilano/CrazyS](https://github.com/gsilano/CrazyS)
